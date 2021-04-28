@@ -1,10 +1,14 @@
 package sample.model;
 import java.util.ArrayList;
 
+/** Classes **/
+
 public class Pedido {
     private String data;
     private itensDoPedido itens;
     private Cliente cliente;
+
+    /** Getter e Setter **/
 
     public Pedido(){
         itens = new itensDoPedido();

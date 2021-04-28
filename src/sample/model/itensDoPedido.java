@@ -3,9 +3,13 @@ package sample.model;
 import java.util.ArrayList;
 import java.util.List;
 
+/** Classes **/
+
 public class itensDoPedido {
     private List<Produto> produtos;
     private double total;
+
+    /** Getter e Setter **/
 
     public itensDoPedido(){
         produtos = new ArrayList<>();
@@ -28,6 +32,8 @@ public class itensDoPedido {
         this.produtos.add(produto);
         total += produto.getPreco();
     }
+
+    /** ToString **/
 
     public String toString(){
         return produtos + "\nTotal: " + total;

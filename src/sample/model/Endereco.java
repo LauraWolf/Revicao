@@ -1,8 +1,12 @@
 package sample.model;
 
+/** Classes **/
+
 public class Endereco {
     private String rua;
     private int numero;
+
+    /** Getter e Setter **/
 
         public String getRua() {
             return rua;
@@ -16,6 +20,8 @@ public class Endereco {
         public void setNumero(int numero) {
             this.numero = numero;
         }
+
+    /** ToString **/
 
         @Override
         public String toString() {

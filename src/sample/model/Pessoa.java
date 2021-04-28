@@ -1,9 +1,13 @@
 package sample.model;
 
+/** Classes **/
+
 public class Pessoa {
     private String nome;
     private String cpf;
     private Endereco endereco;
+
+    /** Getter e Setter **/
 
         public Pessoa(String nome){
             this.nome = nome;
@@ -37,6 +41,8 @@ public class Pessoa {
             endereco.setNumero(numero);
             this.endereco = endereco;
         }
+
+    /** ToString **/
 
         public String toString(){
             return nome

@@ -1,7 +1,11 @@
 package sample.model;
 
+/** Classes **/
+
 public class Cliente extends Pessoa {
     private String email;
+
+    /** Getter e Setter **/
 
     public String getEmail() {
         return email;
